@@ -1,3 +1,5 @@
+package AdapterChallenge;
+
 public interface City {
 
     String getName();

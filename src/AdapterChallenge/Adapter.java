@@ -1,4 +1,6 @@
-public class Adapter implements City{
+package AdapterChallenge;
+
+public class Adapter implements City {
 
     City city;
 

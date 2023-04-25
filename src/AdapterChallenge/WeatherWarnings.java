@@ -1,3 +1,6 @@
+package AdapterChallenge;
+
+import AdapterChallenge.City;
 
 public class WeatherWarnings {
 

@@ -1,3 +1,8 @@
+package AdapterChallenge;
+
+import AdapterChallenge.Adapter;
+import AdapterChallenge.AsianCity;
+
 public class Main {
     public static void main(String[] args) {
         WeatherWarnings weatherWarnings = new WeatherWarnings();

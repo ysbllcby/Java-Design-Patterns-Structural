@@ -1,10 +1,12 @@
-public class NorthAmericanCity implements City {
+package AdapterChallenge;
+
+public class AsianCity implements City {
 
     private String name;
     private double temperature;
     private boolean hasWeatherWarning;
 
-    public NorthAmericanCity(String name, double temperature) {
+    public AsianCity(String name, double temperature) {
         this.name = name;
         this.temperature = temperature;
         hasWeatherWarning = false;
@@ -19,7 +21,7 @@ public class NorthAmericanCity implements City {
     }
 
     public String getTemperatureScale() {
-        return "Fahrenheit";
+        return "Celsius";
     }
 
     public boolean getHasWeatherWarning() {
